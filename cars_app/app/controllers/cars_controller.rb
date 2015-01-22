@@ -4,7 +4,7 @@
 
  # The index action. This will be invoked to view all the products.
  def index
-  @cars = Car.all
+  @cars = Cars.all
  end
 
 end

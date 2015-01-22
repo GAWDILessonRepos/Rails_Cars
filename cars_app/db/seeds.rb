@@ -7,6 +7,6 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 1.upto(5) do |num|
-  Car.create(make: "Make_#{num}", model: "Model_#{num}", year: "Year_#{num}")
+  Cars.create(make: "Make_#{num}", model: "Model_#{num}", year: "Year_#{num}")
   puts "Building Car"
 end
